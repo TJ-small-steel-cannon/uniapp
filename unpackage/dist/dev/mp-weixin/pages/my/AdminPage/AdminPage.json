@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "管理页面",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u--image": "/uview-ui/components/u--image/u--image",
+    "u-empty": "/uview-ui/components/u-empty/u-empty"
+  }
+}

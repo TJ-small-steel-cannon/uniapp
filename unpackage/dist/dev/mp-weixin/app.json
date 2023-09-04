@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/dingdan/dingdan",
+    "pages/my/my",
+    "pages/my/code",
+    "pages/index/kuaidi/kuaidi",
+    "pages/index/paotui/paotui",
+    "pages/index/zujie/zujie",
+    "pages/index/peiwan/peiwan",
+    "pages/index/laji/laji",
+    "pages/index/qita/qita",
+    "pages/publicPage/address/address",
+    "pages/publicPage/addAddress/addAddress",
+    "pages/publicPage/kuaidishangjia/kuaidishangjia",
+    "pages/my/tousu/tousu",
+    "pages/my/guanyu/guanyu",
+    "pages/my/AdminPage/AdminPage"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#04AA7C",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabbar/首页.png",
+        "selectedIconPath": "static/tabbar/首页select.png"
+      },
+      {
+        "pagePath": "pages/dingdan/dingdan",
+        "text": "订单",
+        "iconPath": "static/tabbar/订单.png",
+        "selectedIconPath": "static/tabbar/订单select.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/tabbar/我的.png",
+        "selectedIconPath": "static/tabbar/我的select.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

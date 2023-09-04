@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-code-input": "/uview-ui/components/u-code-input/u-code-input",
+    "u-notify": "/uview-ui/components/u-notify/u-notify"
+  }
+}

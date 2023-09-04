@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* uni.scss */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.container.data-v-34744f9b {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.container .address.data-v-34744f9b {
+  width: 100%;
+}
+.container .address .item.data-v-34744f9b {
+  width: 100%;
+  height: 360rpx;
+  background-color: #d5e1ef;
+  border-radius: 20rpx;
+  box-shadow: 10px 20px 150px rgba(0, 0, 0, 0.15);
+  padding: 30rpx;
+  box-sizing: border-box;
+  margin-top: 20rpx;
+}
+.container .address .item .dizhi.data-v-34744f9b,
+.container .address .item .phone.data-v-34744f9b,
+.container .address .item .name.data-v-34744f9b,
+.container .address .item .floor.data-v-34744f9b {
+  padding: 10rpx 0rpx;
+}
+.container .address .item .operate.data-v-34744f9b {
+  width: 100%;
+  margin-top: 20rpx;
+}
+.container .address .item .operate .defaultAddress.data-v-34744f9b {
+  display: flex;
+  align-items: center;
+  color: #0098fa;
+  float: left;
+  margin-top: 10rpx;
+}
+.container .address .item .operate .defaultAddress text.data-v-34744f9b {
+  margin-left: 10rpx;
+}
+.container .address .item .operate .btn.data-v-34744f9b {
+  display: flex;
+  align-items: center;
+  float: right;
+}
+.container .address .item .operate .btn .edit.data-v-34744f9b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10rpx;
+  padding: 15rpx;
+  padding-right: 25rpx;
+  background: white;
+  border-radius: 10rpx;
+}
+.container .address .item .operate .btn .edit text.data-v-34744f9b {
+  margin-left: 10rpx;
+}
+.container .address .item .operate .btn .delete.data-v-34744f9b {
+  color: #f56c6c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10rpx;
+  padding: 15rpx;
+  padding-right: 25rpx;
+  background: white;
+  border-radius: 10rpx;
+}
+.container .address .item .operate .btn .delete text.data-v-34744f9b {
+  margin-left: 10rpx;
+}
+.container .line.data-v-34744f9b {
+  width: 100%;
+  padding: 50rpx 200rpx;
+  box-sizing: border-box;
+}
+.container .addAddressBtn.data-v-34744f9b {
+  width: 100%;
+  color: white;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  background: #6094e1;
+  border-radius: 50rpx;
+  font-size: 30rpx;
+}
+

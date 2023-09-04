@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "我的",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-count-to": "/uview-ui/components/u-count-to/u-count-to",
+    "u-line": "/uview-ui/components/u-line/u-line",
+    "u-modal": "/uview-ui/components/u-modal/u-modal",
+    "u-picker": "/uview-ui/components/u-picker/u-picker"
+  }
+}

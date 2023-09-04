@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "官方投诉",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u--textarea": "/uview-ui/components/u--textarea/u--textarea",
+    "u-modal": "/uview-ui/components/u-modal/u-modal"
+  }
+}

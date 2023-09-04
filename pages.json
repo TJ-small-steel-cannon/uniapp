@@ -1,0 +1,160 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"tabBar": {
+		"selectedColor": "#04AA7C",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tabbar/首页.png",
+				"selectedIconPath": "static/tabbar/首页select.png"
+			},
+			{
+				"pagePath": "pages/dingdan/dingdan",
+				"text": "订单",
+				"iconPath": "static/tabbar/订单.png",
+				"selectedIconPath": "static/tabbar/订单select.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/tabbar/我的.png",
+				"selectedIconPath": "static/tabbar/我的select.png"
+			}
+		]
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "校园帮"
+			}
+		}, {
+			"path": "pages/dingdan/dingdan",
+			"style": {
+				"navigationBarTitleText": "订单",
+				"enablePullDownRefresh": false
+				
+			}
+
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+
+		},{
+			"path": "pages/my/code",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},{
+			"path": "pages/index/kuaidi/kuaidi",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "快递代取"
+			}
+
+		}, {
+			"path": "pages/index/paotui/paotui",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "校园跑腿"
+			}
+
+		}, {
+			"path": "pages/index/zujie/zujie",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "租借服务"
+			}
+
+		}, {
+			"path": "pages/index/peiwan/peiwan",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "游戏陪玩"
+			}
+
+		}, {
+			"path": "pages/index/laji/laji",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "代扔垃圾"
+			}
+
+		}, {
+			"path": "pages/index/qita/qita",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "其他帮助"
+			}
+
+		}
+	    ,{
+            "path" : "pages/publicPage/address/address",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的地址",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/publicPage/addAddress/addAddress",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "添加地址",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/publicPage/kuaidishangjia/kuaidishangjia",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "快递商家",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/tousu/tousu",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "官方投诉",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/guanyu/guanyu",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "关于我们",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/AdminPage/AdminPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "管理页面",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

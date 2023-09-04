@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "订单",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-sticky": "/uview-ui/components/u-sticky/u-sticky",
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u--image": "/uview-ui/components/u--image/u--image",
+    "u-empty": "/uview-ui/components/u-empty/u-empty",
+    "u-notify": "/uview-ui/components/u-notify/u-notify"
+  }
+}
